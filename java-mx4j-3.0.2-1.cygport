@@ -1,0 +1,12 @@
+JAVA_CLASSPATH="bcel.jar:commons-logging.jar:log4j.jar"
+inherit ant
+
+DESCRIPTION=
+HOMEPAGE="http://mx4j.sourceforge.net/"
+SRC_URI="mirror://sourceforge/mx4j/${P#java-}-src.tar.gz"
+
+ANT_BUILD_XML="build/build.xml"
+# tools: axis, javax.mail, javax.xml.rpc, javax.xml.soap,
+#        javax.servlet, com.sun.net.ssl, com.caucho
+ANT_BUILD_TARGETS="compile.jmx compile.rjmx" # compile.tools javadocs"
+ANT_INSTALL_JARS="dist/lib/*.jar"

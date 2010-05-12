@@ -1,0 +1,6 @@
+category: Java
+requires: java-bcel java-commons-logging java-log4j
+sdesc: "Java Management Extensions implementation"
+ldesc: "Welcome to MX4J, an open source implementation of the Java(TM) 
+Management Extensions (JMX/JSR 3) and of the Java(TM) Management 
+Extensions remote API (JSR 160)."
